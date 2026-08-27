@@ -5,4 +5,5 @@ jobs:
     name: Hello Step
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hey Github Actions: hello world!"
+      - name: First Step
+        run: "echo 'Hey Github Actions: hello world!'"
